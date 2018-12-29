@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	e, config := gomail.New("from@eg.com", []string{"to@eg.com"}, "Hello Gopher!", "Testing the fantastic gomail lib", "<password>")
+	e, config := gomail.New("from@eg.com", []string{"to@eg.com"}, "<subject>", "<body>", "<password>")
 	if e != nil {
 		fmt.Print(fmt.Errorf("Error in creating config %v", e))
 	}
