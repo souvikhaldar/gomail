@@ -22,3 +22,9 @@ func main() {
 	}
 }
 ```
+
+## Note
+Gmail need to be allowed access to unsafe app.
+
+https://serverfault.com/questions/635139/how-to-fix-send-mail-authorization-failed-534-5-7-14
+
