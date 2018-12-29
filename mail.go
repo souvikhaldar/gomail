@@ -14,15 +14,16 @@ type Config struct {
 	Password string
 }
 
-func New(from string, to []string, subject string, body string) (error, *Config) {
+func New(from string, to []string, subject string, body string, password string) (error, *Config) {
 	if from == "" || to == nil {
 		return errors.New("To and from field can't be empty"), &Config{}
 	}
 	return nil, &Config{
-		From:    from,
-		To:      to,
-		Subject: subject,
-		Body:    body,
+		From:     from,
+		To:       to,
+		Subject:  subject,
+		Body:     body,
+		Password: password,
 	}
 }
 
