@@ -13,11 +13,11 @@ import (
 )
 
 func main() {
-	e, config := gomail.New("<from>", []string{"<to>"}, "<subject>", "<body>", "<password>")
+	e, config := gomail.New("<from>", "<password>")
 	if e != nil {
 		fmt.Print(fmt.Errorf("Error in creating config %v", e))
 	}
-	if e := config.SendMail(); e != nil {
+	if e := config.SendMail([]string{"<to>"},"<subject>","<body>"); e != nil {
 		fmt.Print(fmt.Errorf("Error in sending mail %v", e))
 	}
 }
