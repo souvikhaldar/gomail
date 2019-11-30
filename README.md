@@ -1,5 +1,9 @@
 # gomail
-A simple golang package to send email using gmail
+A simple golang package to send email using gmail 
+
+## Installation 
+
+`go get github.com/souvikhaldar/gomail`  
 
 ## Usage
 
