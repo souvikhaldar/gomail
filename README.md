@@ -30,7 +30,9 @@ func main() {
 ## Note
 Gmail need to be allowed access to unsafe app.
 
-https://serverfault.com/questions/635139/how-to-fix-send-mail-authorization-failed-534-5-7-14
+https://serverfault.com/questions/635139/how-to-fix-send-mail-authorization-failed-534-5-7-14  
+
+You might need to do this often- https://stackoverflow.com/questions/34433459/gmail-returns-534-5-7-14-please-log-in-via-your-web-browser
 
 #### Reference
 https://gist.github.com/jpillora/cb46d183eca0710d909a
